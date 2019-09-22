@@ -1,14 +1,15 @@
 # calendar_api
 simple backend on django_rest_framework for reminding about events
 
-Python version: 3.6
+## Python *version: 3.6*
 [Required modules](../master/req.txt).
 
-Launch: docker-compose up
+## Launch: *docker-compose up*
 
-API:
+## API:
 
 Authorisation from django-rest-auth<br/>
+
 ^/rest-auth/login  - email/username + password<br/>
 ^/rest-auth/logout - token<br/>
 ^/rest-auth/registration/ email + username + password1 + password2<br/>
